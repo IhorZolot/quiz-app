@@ -30,7 +30,7 @@ export const Quiz = ({ questions }) => {
 		<div className='w-full max-w-2xl bg-white p-6 rounded-lg shadow-md'>
 			<div className='mt-6  border-b-2 border-gray-300 mb-4'>
 				<h3 className='text-teal-700 text-lg py-2 font-semibold'>
-					Questions {score} of {questions.length}
+					Question {currentQuestionIndex + 1} of {questions.length}
 				</h3>
 			</div>
 			<div className='mb-4'>
